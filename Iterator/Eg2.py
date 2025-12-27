@@ -18,9 +18,10 @@ class myClass:
         self.x = x+1;
         return x
 
-for i in myClass(19):
+for i in myClass(27):
     print("................")
     print(i)
 print("\n")
 for i in myClass(6):
     print(i)
+
