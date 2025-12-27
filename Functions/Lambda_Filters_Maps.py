@@ -2,8 +2,8 @@
 
 print("Lambda:")
 x = lambda a,b,c=0 : a+b+c
-print(x(19,27))
-print(x(10,19,27))
+print(x(10,27))
+print(x(10,12,27))
 
 #Filter
 
@@ -33,3 +33,4 @@ def cube(num):
 list1 = [1,2,3,4,5]
 cubenumber = map(cube,list1)
 print(list(cubenumber))
+
