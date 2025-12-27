@@ -1,6 +1,6 @@
 import time
 a=10
-b=20
+b=27
 try:
     print("1st try is running....")
     print(a+b)
@@ -29,4 +29,5 @@ else:
         time.sleep(2)
 finally:
     print("Program runned successfully....")
+
 
