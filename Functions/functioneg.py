@@ -27,7 +27,7 @@ print("Person Place: ",getattr(person,'place'))
 print("Pesson Place is changed to: ",setattr('place','Thoothukudi'))
 
 #min, max and sorted function():
-l=[30,27,8,19,10,3,11,12]
+l=[30,27,8,24,10,28,11,12]
 print("Minimum value in list l:",min(l))
 print("Maximum value in list l:",max(l))
 print("Sorted list of l: ",sorted(a))'''
@@ -40,3 +40,4 @@ output2= lambda y,x:x+y+10 # x = b , y = a
 print(output1(a,b))
 print(output2(a,b))
       
+
